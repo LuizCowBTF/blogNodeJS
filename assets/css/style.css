@@ -1,0 +1,129 @@
+/* CSS DO MENU PRINCIPAL  == /partials/header.ejs */
+#lineAcces {
+  color: #323232;
+  background-color: #472e23;
+  height: 140px;
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#menuBasic {
+  display: inlines;
+  padding: 25px 0px;
+}
+
+#colLogo {
+  padding: 5px 0px;
+  text-align: center;
+}
+
+#redeSocial {
+  display: inlines;
+  padding: 35px 0px;
+  margin-left: 30px;
+  text-align: center;
+  max-width: 250px;
+}
+
+#colRedeSocial {
+  text-align: center;
+  width: 30px;
+}
+
+/* FIM DO CSS DO MENU PRINCIPAL */
+/* CSS PARA O SLIDESHOW PAGINA PRINCIPAL */
+#carouselSlides {
+  margin: 0px 0px 0px 0px;
+  border: 2px solid red;
+  text-align: center;
+
+}
+
+/* FIM CSS DO SLIDESHOW PAGINA PRINCIPAL */
+
+/* CSS DA TABELA DE PRODUTOS */
+
+#mostruarioProduto {
+  background-color: lightgray;
+}
+
+#tituloProduto {
+  color: #323232;
+  background-color: #472e23;
+  font-size: 20px;
+  font-weight: bolder;
+}
+/* FIM CSS DA PAGINA PRINCIPAL */
+/* CSS DA PAGINA DO BLOG */
+
+#linhaTituloBlog {
+  margin: 20px 0px 10px 0px;
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#colunaCategorias {
+  padding: 20px 5px 0px 0px;
+  font-size: 16px;
+  background-color: #472e23;
+  display: block;
+  text-align: right;
+}
+
+/*  BOTOES COLUNA CATEGORIAS DA PAGINA BLOG  */
+
+.btn-noline-dark {
+  display: inline-block;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.btn-noline-dark:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-noline-dark:focus,
+.btn-noline-dark.focus {
+  border: none;
+}
+
+.btn-noline-dark.disabled,
+.btn-noline-dark:disabled {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.btn-noline-dark:not(:disabled):not(.disabled):active,
+.btn-noline-dark:not(:disabled):not(.disabled).active,
+.show > .btn-noline-dark.dropdown-toggle {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: none;
+}
+
+.btn-noline-dark:not(:disabled):not(.disabled):active:focus,
+.btn-noline-dark:not(:disabled):not(.disabled).active:focus,
+.show > .btn-noline-dark.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem transparent;
+}
+
+/*  FIM BOTOES COLUNA CATEGORIAS DA PAGINA BLOG  */
+/*  FIM PAGINA DO BLOG*/
+
+/*  CSS DO MENU PRINCIPAL */
